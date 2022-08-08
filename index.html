@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./node_modules//bootstrap-icons/font/bootstrap-icons.css">
+    <title>Advance Calculator</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<!-- toggeling body class here for changing themes of Document -->
+<body class="dark_theme">
+    <!-- calcs outer body -->
+    <main>
+        <!-- main cals body starts -->
+        <div class="calcRow row mx-auto">
+            <div class="col-11 col-sm-8 col-md-6 col-lg-4">
+                <!-- calculator  -->
+                <section id="cals__body">
+                    <!-- screen output body -->
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- output screen -->
+                            <div class="screen__output">
+                                <div class="output"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- button sction body -->
+                    <div class="buttonSection">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-6 rem_pad"><button   class="clearBtn"><i class="bi bi-trash3"></i></button></div>
+                                <div class="col-3 rem_pad"><button   class="backspaceBtn"><i class="bi bi-backspace-fill"></i></button></div>
+                                <div class="col-3 rem_pad"><button  class="operatorBtn">÷</button></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3 rem_pad"><button class="numbersBtn">7</button></div>
+                                <div class="col-3 rem_pad"><button class="numbersBtn">8</button></div>
+                                <div class="col-3 rem_pad"><button class="numbersBtn">9</button></div>
+                                <div class="col-3 rem_pad"><button  class="operatorBtn">+</button></div>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3 rem_pad"><button class="numbersBtn">4</button></div>
+                                <div class="col-3 rem_pad"><button class="numbersBtn">5</button></div>
+                                <div class="col-3 rem_pad"><button class="numbersBtn">6</button></div>
+                                <div class="col-3 rem_pad"><button  class="operatorBtn">-</button></div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3 rem_pad"><button class="numbersBtn">1</button></div>
+                                <div class="col-3 rem_pad"><button class="numbersBtn">2</button></div>
+                                <div class="col-3 rem_pad"><button class="numbersBtn">3</button></div>
+                                <div class="col-3 rem_pad"><button  class="operatorBtn">*</button></div>
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-3 rem_pad"><button class="numbersBtn">0</button></div>
+                                <div class="col-3 rem_pad"><button class="numbersBtn">.</button></div>
+                                <div class="col-6 rem_pad"><button  class="resultBtn">=</button></div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                </section>
+            </div>
+        </div>
+        
+    </main>
+    
+    
+</body>
+<script src="./node_modules//bootstrap//dist//js//bootstrap.bundle.js"></script>
+<script src="./js/index.js"></script>
+</html>
